@@ -22,7 +22,3 @@ insert into sensor values
 (null,'19','29','38','49','2020-09-13 19:39:23'),
 (null,'20','30','40','50','2020-09-17 03:45:28');
 select * from sensor;
-
-delete from sensor where id_sensor='4';
-
-update sensor set temperatura_máxima='30' where id_sensor='6';

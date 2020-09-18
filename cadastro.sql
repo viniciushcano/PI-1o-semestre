@@ -24,9 +24,3 @@ insert into cadastro values
 (null,'Roberto','95674820','Roberto@gmail.com','00000127483959','1239');
 
 select * from cadastro;
-
-delete from cadastro where id_cadastro='4';
-
-update cadastro set email='João@gmail.com' where id_cadastro='1';
-
-select * from cadastro where nome like '%o';
