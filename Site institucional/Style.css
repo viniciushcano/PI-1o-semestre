@@ -35,7 +35,11 @@ li {
 }
 
 img {
-
+    margin: 2px;
+    margin-left: 5px;
 }
 
+.integrantes{
+    margin-left: 10px;
+}
 
