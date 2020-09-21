@@ -34,8 +34,8 @@ li {
     margin: 18px;
 }
 
-img {
-
+img, p {
+    float: left;
 }
 
 
