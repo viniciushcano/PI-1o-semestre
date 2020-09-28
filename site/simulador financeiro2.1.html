@@ -42,9 +42,9 @@
         var quilo1 = data.value * 850 * 24 * 30 / 1000;
         var quilo2 = refri.value * 1580 * 24 * 30 / 1000;
         var quilo3 = Number(quilo1) + Number(quilo2);
-        resultado1.innerHTML = `<h3> Seus servidores consumirão, cerca de ${quilo1} kWh, e<br>
-                        Seus parelhos de refrigeração, ficará na faixa de ${quilo2} kWh<br>
-                                        Juntos o consumo médio será de ${quilo3} kWh ao mês.</h3>`;
+        resultado1.innerHTML = `<h3> Seus servidores consumirão, cerca de ${quilo1.toFixed(2)} kWh, e<br>
+                        Seus parelhos de refrigeração, ficará na faixa de ${quilo2.toFixed(2)} kWh<br>
+                                        Juntos o consumo médio será de ${quilo3.toFixed(2)} kWh ao mês.</h3>`;
     };
 
     function custoEnergia() {
@@ -52,9 +52,9 @@
         var custo = refri.value * 1580 * 24 * 30 / 1000 * 0.80;
         var total = Number(consumo) + Number(custo);
         resultado2.innerHTML = `<h3> O custo desta operação, para
-                                seus servidores, será de R$ ${consumo}, e os<br>
-                                Seus equipamentos de refrigeração, de R$ ${custo},<br>
-                                Juntos custarão R$${total} por mês.</h3>`;
+                                seus servidores, será de R$ ${consumo.toFixed(2)}, e os<br>
+                                Seus equipamentos de refrigeração, de R$ ${custo.toFixed(2)},<br>
+                                Juntos custarão R$${total.toFixed(2)} por mês.</h3>`;
     };
 
     function oneEconomia() {
@@ -63,8 +63,8 @@
         var conversao3 = Number(conversao1) + Number(conversao2);
         var conversao4 = conversao3 * 0.40;
         var conversao5 = conversao3 - conversao4;
-        resultado3.innerHTML = `<h3>O benefício será uma econômia de R$ ${conversao4},<br>
-                                que deverá ser desembolsado, por apenas R$ ${conversao5} por mês </h1>
+        resultado3.innerHTML = `<h3>O benefício será uma econômia de R$ ${conversao4.toFixed(2)},<br>
+                                que deverá ser desembolsado, por apenas R$ ${conversao5.toFixed(2)} por mês </h1>
                                 (Economizando em cerca de 40% da sua operação!)`;
     };
 </script>
