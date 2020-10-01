@@ -34,14 +34,11 @@ li {
     margin: 18px;
 }
 
-<<<<<<< HEAD:Site institucional/Style.css
 img {
     margin: 2px;
     margin-left: 5px;
-=======
 img, p {
     float: left;
->>>>>>> b18f05fa1d33fb397b57ab316d4d3ea2c357a3ea:Style.css
 }
 
 .integrantes{
