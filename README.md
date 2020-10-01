@@ -1,11 +1,11 @@
 # PI-1o-semestre
 
-<h1>Principais Regras<h1/>
+Principais Regras
 
-<b>1- SEMPRE REALIZAR GIT PULL
+1- SEMPRE REALIZAR GIT PULL
 2- Definir / Cumprir horários e prazos
 3- Honestidade
-4- AVISAR COM ANTECEDÊNCIA SOBRE QUALQUER ASSUNTO, DUVIDAS, AJUDA</b>
+4- AVISAR COM ANTECEDÊNCIA SOBRE QUALQUER ASSUNTO, DUVIDAS, AJUDA
 
 Reunião 01/10
 Presentes: Vinicius,Marcelo,Lucas,José e João
