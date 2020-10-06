@@ -1,0 +1,107 @@
+.main{
+    display: flex;/*definindo o display como flex*/
+    flex-direction: column;/*definindo a direção do flex para coluna */
+    justify-content: center;/*alinhando verticalmente */
+    /* align-items: center;definindo horizontalmente */
+    height: 100vh;/*definindo que a altura vai ter 90% do tamanho da tela*/
+    padding: 0 10%;
+}
+.main-box{
+    background: #04011edb;/*definindo a cor de fundo do elemento*/
+    width: 80%;/*definindo que a largura vai tomar 80% do pai */
+    height: 70%;/*definindo que o tamanho vai tomar 80% do pai*/
+    display: flex;/*definindo o display como flex*/
+    flex-direction: column;/*definindo a direção do flex para coluna*/
+    justify-content: space-around;/*definindo o espaçamento*/
+    align-items: center;/*alinhando horizontalmente*/
+    border-radius: 20px;/*arredondando a borda*/
+}
+.main-box-button{
+    border-radius: 20px;/*arredondando a borda */
+    color: white;/*definindo a cor do texto como branco*/
+    background: darkblue;/*definindo a cor de fundo*/
+    border: 2px solid black;/*criando borda no elemento*/
+    padding: 5px 25px;/*adicionando padding de 5px para cima/baixo e 25px para esquerda/direita */
+    font-size: 20px;/*definindo o tamanho da fonte para 20px*/
+    text-transform: uppercase;/*definindo que o texto vai ser maiúsculo*/
+    letter-spacing: 2px;/*definindo 2px de espaço entre as letras*/
+    cursor: pointer;/*definindo o ponteiro do mouse com a "mãozinha"*/
+    outline: none;/*retirando as "bordas pretas" quando clica no elemento */
+    transition: 0.5s;/*definindo a transição do elemento para 0.5 segundos */
+}
+.main-box-button:hover{
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);/*adicionando sombra no elemento */
+    background: #01124152;/*definindo a cor de fundo*/
+}
+.main-boxL, .main-boxR{
+    display: flex;/*definindo o display como flex*/
+}
+.main-boxL-img, .main-boxR-img{
+    height: 50px;/*definindo 50px de altura*/
+    padding: 0 25px;/*adicionando padding de 25px para a direita/esquerda */
+}
+.main-boxL-text, .main-boxR-text{
+    padding: 0 15px;/*adicionando padding de 15px para a direita/esquerda */
+    color: white;/*definindo a cor do texto para branco*/
+    font-size: 20px;/*definindo o tamanho da fonte para 20px*/
+}
+
+.data{
+    background: #000e33;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    padding: 0 10%;
+}
+.thermo{
+    background: #000A25;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    padding: 0 10%;
+}
+.graph{
+    background: #000e33;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    padding: 0 10%;
+}
+.data-box, .thermo-box, .graph-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.data-box-title, .thermo-box-title, .graph-box-title{
+    color: white;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.data-box-button, .thermo-box-button, .graph-box-button{
+    margin-top: 50px;
+    color: white;
+    background: darkblue;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+.data-box-button:hover, .thermo-box-button:hover, .graph-box-button:hover{
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    background: #01124152;
+
+}
+.data-img, .thermo-img, .graph-img{
+    width: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
