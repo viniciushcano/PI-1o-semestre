@@ -15,3 +15,14 @@ Ausentes:
 -Criação de nova branch teste no github;
 -Inclusão dos entregáveis no Trello;
 -Criação de novo site PRAZO DIA 05/10 (REUNIÃO NO DISCORD)
+
+Reunião 08/10
+Presentes: Vinicius,Marcelo,Lucas,José e João
+Ausentes:  
+            Assunto da Reunião
+
+-Criação script do banco de dados;
+-Definição do site institucional;
+-Atualização do Trello;
+-Email para prof Vivian análise do script - Responsável José retorno []
+ 
