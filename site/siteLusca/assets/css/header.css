@@ -4,7 +4,6 @@
     padding: 0;/*zerando espaçamento interno*/
     font-family: 'Rajdhani', sans-serif;/*definindo a fonte*/
     text-decoration: none;/*removendo o underline*/
-    /* font-family: 'Suwannaphum', cursive; */
 }
 .body{
     height: 100vh;/*definindo o tamando do body para 100% do tamanho DA TELA*/
@@ -17,7 +16,6 @@
     align-items: center;/*alinhando verticalmente*/
     justify-content: space-between;/*alinhando horizontalmente*/
     height: 10vh; /*definindo o tamanho do header para 10% do tamanho da tela*/
-    /* padding: 0 50px; adicionando padding de 50px para esquerda e direita */
     position: fixed;
     width: 100%;
     background: #000000a3;
@@ -26,7 +24,6 @@
     display: flex; /*definindo o display como flex*/
     align-items: center;/*alinhando verticalmente*/
     border-radius: 20px;/*arredondando a borda*/
-    /* padding: 0px 10px;adicionando padding de 10px para esquerda e direita */
     padding-left: 25px;
 }
 .header-box-img{
@@ -40,7 +37,7 @@
 }
 .header-ul{
     display: flex;/*definindo o display como flex*/
-    padding-right: 25px;
+    padding-right: 25px; /*adicionando 20px de padding para a direita*/
 }
 .header-ul-li{
     cursor: pointer; /*definindo o ponteiro do mouse com uma "mãozinha"*/
@@ -56,23 +53,4 @@
 }
 .header-ul-li:hover{/*criando um hover */
     border-bottom: 1px solid white; /*adicionando uma borda branca abaixo do elemento */
-}
-.main-title{
-    /* text-align: center;centralizando o texto */
-    color: white;/*definindo a cor do texto como branco*/
-    letter-spacing: 2px;/*adicionando 2px de espaço entre as letras */
-    transition: 0.5s;/*definindo a transição do elemento para 0.5segundos*/
-    cursor: default;/*definindo o cursor padrão*/
-    /* position: absolute;definindo uma posição absoluta para o elemento*/
-    /* top: 10vh; definindo que o elemento vai ficar a 10% do TOPO do tamanho da tela */
-    margin-bottom: 50px;
-    font-size: 65px;
-}
-.main-title:hover{
-    letter-spacing: 4px;/*adicionando 4px de espaço entre as letras*/
-}
-.main-text{
-    width: 450px;
-    font-size: 25px;
-    color: white;
 }

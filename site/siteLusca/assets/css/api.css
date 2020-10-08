@@ -1,10 +1,11 @@
 .title{
-    text-align: center;/*alinhando o texto ao centro */
-    color: white;/*definindo a cor da fonte como branco*/
-    letter-spacing: 2px;/*adicionando 2px de espaçamento entre as letras */
-    transition: 0.5s;/*definindo a transição do elemento para 0.5 segundos*/
-    cursor: default;/*definindo o ponteiro do mouse como o padrão*/
-    margin-bottom: 25px;/*adicionando 25px de margin para baixo*/
+    color: white;/*definindo a cor do texto como branco*/
+    letter-spacing: 2px;/*adicionando 2px de espaço entre as letras */
+    transition: 0.5s;/*definindo a transição do elemento para 0.5segundos*/
+    cursor: default;/*definindo o cursor padrão*/
+    text-align: center;/*alinhando o texto no centro*/
+    padding-top: 10vh;/*adicionando 1vh de padding para cima*/
+    font-size: 60px;/*definindo o tamanho da fonte*/
 }
 .title:hover{
     letter-spacing: 4px;/*definindo 4px de espaçamento entre as letras*/
