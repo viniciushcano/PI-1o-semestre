@@ -16,18 +16,18 @@
     align-items: center;/*alinhando verticalmente*/
     justify-content: space-between;/*alinhando horizontalmente*/
     height: 10vh; /*definindo o tamanho do header para 10% do tamanho da tela*/
-    position: fixed;
-    width: 100%;
-    background: #000000a3;
+    position: fixed;/*definindo a posição do elemento como fixa*/
+    width: 100%;/*definindo a largura do elemento como 100%*/
+    background: #000000a3;/*definindo a cor de fundo*/
 }
 .header-box{
     display: flex; /*definindo o display como flex*/
     align-items: center;/*alinhando verticalmente*/
     border-radius: 20px;/*arredondando a borda*/
-    padding-left: 25px;
+    padding-left: 25px;/*adicionando padding esquerdo de 25px*/
 }
 .header-box-img{
-    height: 50px;/*definindo a altura como 50px*/
+    height: 10vh;/*definindo a altura como 10vh*/
 }
 .header-box-title{
     font-size: 35px;/*definindo o tamanho da fonte para 35px*/

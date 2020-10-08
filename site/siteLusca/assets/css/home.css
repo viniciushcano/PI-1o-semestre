@@ -3,7 +3,7 @@
     flex-direction: column;/*definindo a direção do flex para coluna */
     justify-content: center;/*alinhando verticalmente */
     height: 100vh;/*definindo que a altura vai ter 90% do tamanho da tela*/
-    padding: 0 10%;
+    padding: 0 10%;/*adicionando padding de 10% para esquerda/direita*/
 }
 .main-box{
     background: #04011edb;/*definindo a cor de fundo do elemento*/
