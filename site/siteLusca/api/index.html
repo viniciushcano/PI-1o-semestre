@@ -47,7 +47,7 @@
 		</div>
 	<section>
 
-	<script>
+	<!-- <script>
 		var context = document.getElementById("chart").getContext("2d");
 		context.canvas.width = 800;
 		context.canvas.height = 300;
@@ -116,7 +116,7 @@
         function get_data(){
 
             var http = new XMLHttpRequest();
-            http.open('GET', 'http://localhost:3000/api', false);
+            http.open('GET', 'http://localhost:5000/api', false);
             http.send(null);        
 			
             var obj = JSON.parse(http.responseText);
@@ -151,7 +151,8 @@
             get_data();
         }, 1000);
 
-	</script>
+	</script> -->
 </body>
 
 </html>
+<script src="index.js"></script>
