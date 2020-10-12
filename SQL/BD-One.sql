@@ -6,18 +6,10 @@ nome varchar(30),
 CNPJ char(14),
 Email varchar(30),
 Telefone varchar(11),
-fkEndereco int,
-foreign key (fkEndereco) references endereco (idEndereco)
-);
-create table endereco(
-idEndereco int primary key auto_increment,
 CEP char(8),
-Logradouro varchar(25),
-Numero int,
-Bairro varchar(25),
-Cidade varchar(30),
-Estado varchar(30)
+Complemento varchar(20)
 );
+
 create table usuario (
 idUsuario int primary key auto_increment,
 Nome varchar(30),
@@ -46,15 +38,15 @@ fkSensor int,
 foreign key (fkSensor) references sensor (idSensor)
 );
 desc registro;
-insert into endereco values
-(null,12345678,'Rua batata',12,'Centro','São Paulo','São Paulo');
+
 insert into empresa values 
-(null,'VIVO',01234567891011,'VIVO@gmail.com.br',11912345678,1);
+(null,'VIVO',01234567891011,'VIVO@gmail.com.br',11912345678,'09710180','Numero 17 apt 22');
 insert into usuario values 
 (null,'Luis Carlos',"1994-05-26",'12345678910','Luis@hotmail.com','Luis12345','11912365478',1);
 insert sensor values 
 (null,'Recepcao','ativo',1);
 insert registro values 
 (null,sysdate(),20,45,1);
-select * from registro;
+drop database One_solutions;
+
 
