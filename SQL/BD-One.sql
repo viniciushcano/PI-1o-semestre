@@ -5,7 +5,7 @@ use One_solutions;
 create table empresa (
 idEmpresa int primary key auto_increment,
 nome varchar(45),
-CNPJ char(18),
+CNPJ char(25),
 email varchar(45),
 telefone char(13),
 ramal char(5),
@@ -55,9 +55,9 @@ foreign key (fkSensor) references sensor(idSensor),
 foreign key (fkEmpresa) references empresa(idEmpresa)
 );
 
-select * from Empresa;
-insert into Empresa values 
-(null, 'Vivo', '00011122233345', 'vivo@gmail.com', '11988883232', '1202', '09313333', 'Alameda Santos', '1200', 'Jardim Paulista');
+select * from empresa;
+insert into empresa values 
+(null, 'Vivo', '00. 011. 122/2333-45', 'vivo@gmail.com', '11988883232', '1202', '09313333', 'Alameda Santos', '1200', 'Jardim Paulista');
 
 select * from usuario;
 insert into usuario (nome, data_nasc, CPF, email, senha, fkEmpresa) values
