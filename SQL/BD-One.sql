@@ -45,14 +45,11 @@ foreign key (fkSensor) references sensor (idSensor)
 desc registro;
 
 create table local_sensor (
-idLocal int primary key auto_increment,
 andar char(3),
 sala varchar(8),
 quadrante varchar(10),
 fkSensor int,
-fkEmpresa int,
-foreign key (fkSensor) references sensor(idSensor),
-foreign key (fkEmpresa) references empresa(idEmpresa)
+foreign key (fkSensor) references sensor(idSensor)
 );
 
 select * from empresa;
@@ -75,6 +72,6 @@ insert into registro(Data_temp, Temperatura, Umidade, fkSensor) values
 desc registro;
 
 select * from local_sensor;
-insert into local_sensor(andar, sala, quadrante, fkSensor, fkEmpresa) values 
-('3', 'Sala 1', 'Central', 1, 1);
+insert into local_sensor(andar, sala, quadrante, fkSensor) values 
+('3', 'Sala 1', 'Central', 1);
 desc local_sensor;
