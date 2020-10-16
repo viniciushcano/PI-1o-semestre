@@ -26,6 +26,13 @@ fkEmpresa int,
 foreign key (fkEmpresa) references empresa (idEmpresa)
 )auto_increment= 100;
 
+create table local_sensor (
+idLocal int primary key auto_increment,
+andar char(3),
+sala varchar(8),
+quadrante varchar(10)
+);
+
 create table sensor (
 idSensor int primary key auto_increment,
 status_sensor varchar (10),
@@ -46,13 +53,6 @@ foreign key (fkSensor) references sensor (idSensor)
 );
 desc registro;
 
-create table local_sensor (
-idLocal int primary key auto_increment,
-andar char(3),
-sala varchar(8),
-quadrante varchar(10)
-);
-
 select * from empresa;
 insert into empresa values 
 (null, 'Vivo', '00. 011. 122/2333-45', 'vivo@gmail.com', '11988883232', '1202', '09313333', 'Alameda Santos', '1200', 'Jardim Paulista');
@@ -61,6 +61,11 @@ select * from usuario;
 insert into usuario (nome, data_nasc, CPF, email, senha, fkEmpresa) values
 ('Luik', '2002-10-21', '382.919.328-92', 'luik@gmail.com', '12345', 1);
 describe usuario;
+
+select * from local_sensor;
+insert into local_sensor(andar, sala, quadrante) values 
+('3', 'Sala 1', 'Central');
+desc local_sensor;
 
 select * from sensor;
 insert into sensor values 
@@ -71,9 +76,4 @@ select * from registro;
 insert into registro(Data_temp, Temperatura, Umidade, fkSensor) values 
 (sysdate(), '25°', '50%', 1);
 desc registro;
-
-select * from local_sensor;
-insert into local_sensor(andar, sala, quadrante) values 
-('3', 'Sala 1', 'Central');
-desc local_sensor;
 
